@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter @toy-element/play dev"
+    "dev": "pnpm --filter @toy-element/play dev",
+    "docs:dev": "pnpm --filter @toy-element/docs docs:dev",
+    "docs:build": "pnpm --filter @toy-element/docs docs:build",
+    "docs:preview": "pnpm --filter @toy-element/docs docs:preview"
   },
   "author": "ray",
   "license": "ISC",
