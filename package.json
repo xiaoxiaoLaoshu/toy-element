@@ -29,11 +29,14 @@
     "vue-tsc": "^1.8.27"
   },
   "dependencies": {
-    "lodash-es": "^4.17.21",
-    "vue": "^3.4.19",
-    "toy-element": "workspace:*",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "@toy-element/hooks": "workspace:*",
+    "@toy-element/theme": "workspace:*",
     "@toy-element/utils": "workspace:*",
-    "@toy-element/theme": "workspace:*"
+    "lodash-es": "^4.17.21",
+    "toy-element": "workspace:*",
+    "vue": "^3.4.19"
   }
 }
