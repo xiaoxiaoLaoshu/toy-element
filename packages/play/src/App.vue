@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <er-button />
+  <er-button type="primary" name="button">Primary</er-button>
+  <er-button type="primary" name="button" disabled>disabled</er-button>
+  <er-button type="success" name="button">disabled</er-button>
 </template>
 
 <style scoped>
